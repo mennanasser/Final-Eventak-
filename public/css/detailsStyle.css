@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*
+Template Name: GreyScale Business
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Layout CSS
+*/
+
+html{overflow-y:scroll;}
+body{margin:0; padding:0; font-size:13px; font-family:verdana, Arial, Helvetica, sans-serif; color:#777777; background-color:#FFFFFF;}
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style-type:none;}
+
+.clear{clear:both;}
+br.clear{clear:both; margin-top:-15px;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left, .imgl{float:left;}
+.fl_right, .imgr{float:right;}
+
+img{margin:10px; padding:0; border:0;}
+.imgl, .imgr{border:1px solid #D2D2D2; padding:5px; color:#666666; background-color:#F7F7F7;}
+.imgl{margin:0 8px 8px 0; clear:left;}
+.imgr{margin:0 0 8px 8px; clear:right;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{position:relative; float:left; width:100%; margin:0; text-align:left;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:60 20 15px 0; padding:0 15px 0; line-height:normal; font-weight:normal; font-size:36px; font-family:Georgia, "Times New Roman", Times, serif; border-bottom:1px solid #D2D2D2;}
+.col1{color:#FFFFFF; background-color:#181818;}
+.col2{color:#000000; background-color:#EEEEEE;}
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#head, #intro, .homecontent, #breadcrumb, #container, #projects, #footer{display:block; position:relative; width:960px; margin:0 auto;}
+
+/* ----------------------------------------------Head------------------------------------- */
+
+#head{height:120px; font-family:Georgia, "Times New Roman", Times, serif;}
+#head #topnav{font-family:Verdana, Arial, Helvetica, sans-serif;}
+#head h1, #head p, #head ul, #head a{margin:0; padding:0; list-style:none; line-height:normal; border:none;}
+#head h1 a{position:absolute; top:12px; left:0; font-size:36px; font-weight:normal; color:#FFFFFF; background-color:#181818;}
+#head p{display:block; position:absolute; top:55px; left:0; color:#CCCCCC; background-color:#181818; font-size:16px;}
+
+/* ----------------------------------------------Homepage Intro------------------------------------- */
+
+#intro{position:relative; margin:30px; display:block; width:750px; height:420px; padding:15px; color:#777777; background-color:#EEEEEE;}
+
+/* ----------------------------------------------Breadcrumb Navigation------------------------------------- */
+
+#breadcrumb{display:block; position:relative; width:930px; margin:-30px auto 0; padding:15px; color:#777777; background-color:#EEEEEE;}
+#breadcrumb a{font-weight:bold; color:#000000; background-color:#EEEEEE;}
+#breadcrumb ul{margin:0; padding:0; list-style:none;}
+#breadcrumb ul li{display:inline;}
+#breadcrumb ul li.first{font-weight:bold;}
+#breadcrumb ul li.current a{text-decoration:underline;}
+
+/* ----------------------------------------------Container------------------------------------- */
+
+#container{padding:30px 0;}
+#container a{color:#000000; background-color:#FFFFFF;}
+
+/* ----------------------------------------------Content------------------------------------- */
+
+#content{display:block; float:left; width:630px;}
+
+/* Comments */
+
+#comments{margin-bottom:40px;}
+#comments .commentlist{margin:0; padding:0;}
+#comments .commentlist ul{margin:0; padding:0; list-style:none;}
+#comments .commentlist li.comment_odd, #comments .commentlist li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments .commentlist li.comment_odd{color:#666666; background-color:#F7F7F7;}
+#comments .commentlist li.comment_odd a{color:#000000; background-color:#F7F7F7;}
+#comments .commentlist li.comment_even{color:#666666; background-color:#E8E8E8;}
+#comments .commentlist li.comment_even a{color:#000000; background-color:#E8E8E8;}
+#comments .commentlist .author .name{font-weight:bold;}
+#comments .commentlist .submitdate{font-size:smaller;}
+#comments .commentlist p{margin:10px 5px 10px 0; padding:0; font-weight:normal; text-transform:none;}
+#comments .commentlist li .avatar{float:right; border:1px solid #EEEEEE; margin:0 0 0 10px;}
+
+/* ----------------------------------------------Right Block------------------------------------- */
+
+#column{display:block; float:right; width:300px;}
+#column .holder, #column #featured{display:block; width:300px; margin-bottom:40px;}
+#column .holder p{line-height:1.6em;}
+#column h2{font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+#column .holder h2.title{display:block; width:100%; height:65px; margin:0; padding:15px 0 8px 0; color:#666666; background-color:#FFFFFF; line-height:normal; border-bottom:1px dashed #CCCCCC;}
+#column .holder h2.title img{float:left; margin:-15px 8px 0 0; padding:5px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+#column .holder p.readmore{display:block; width:100%; font-weight:bold; text-align:right; line-height:normal;}
+#column div.imgholder{display:block; width:290px; margin:0 0 10px 0; padding:4px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+
+/* Featured Block */
+
+#column #featured a{color:#000000; background-color:#F9F9F9;}
+#column #featured ul, #column #featured h2, #column #featured p{margin:0; padding:0; list-style:none;}
+#column #featured li{display:block; width:250px; margin:0px; padding:20px 25px; color:#2E271D; background-color:#F9F9F9;}
+#column #featured li p{line-height:1.6em;}
+#column #featured li p.imgholder{display:block; width:240px; height:90px; margin:20px 0 15px 0; padding:4px; border:1px solid #CCCCCC;}
+#column #featured li h2{margin:0; padding:0 0 14px 0; color:#666666; background-color:#F9F9F9; line-height:normal; border-bottom:1px dashed #666666;}
+#column #featured p.more{display:block; width:100%; margin-top:15px; font-weight:bold; text-align:right; line-height:normal;}
+
+/* ----------------------------------------------Projects------------------------------------- */
+
+#projects{margin:0 auto; padding:30px 0;}
+#projects a{display:block; width:300px; color:#000000; background-color:#EEEEEE;}
+#projects ul{margin:0; padding:0; list-style:none;}
+#projects li{display:inline; float:left; margin:20px 30px 0 0; padding:0;}
+#projects li.last{margin-right:0;}
+#projects strong{display:block; width:100%; text-align:right; font-weight:bold;}
+#projects img{display:block; width:290px; margin:0 0 10px 0; padding:4px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+
+/* ----------------------------------------------Footer------------------------------------- */
+
+#footer{padding:20px 0;}
+#footer a{color:#FF9900; background-color:#181818;}
+#footer h2{margin:0 0 15px 0; padding:0 0 8px 0; font-size:22px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#CCCCCC; background-color:#181818; line-height:normal; border-bottom:1px dashed #CCCCCC;}
+#contactform{display:block; float:left; width:350px;}
+
+/* Company Details */
+
+#compdetails{display:block; float:right; width:550px;}
+#compdetails ul{margin:0; padding:0; list-style:none;}
+#compdetails li{margin:0 0 12px 0;}
+#compdetails li.last{margin:0;}
+#officialdetails{float:left}
+#officialdetails li.last{margin-bottom:20px;}
+#contactdetails{float:right}
+
+/*    kan f home        */
+
+#intro h2, #intro p, #intro ul, #intro a{margin:0; padding:0; list-style:none;}
+
+
